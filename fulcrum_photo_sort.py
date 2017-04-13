@@ -1,6 +1,7 @@
 import os
 from fulcrum import Fulcrum
 
+
 #Ask user for API key, then create Fulcrum access object
 fulcrumKey = raw_input('Enter the Fulcrum API key: ')
 fulcrum = Fulcrum(key=fulcrumKey)

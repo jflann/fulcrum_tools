@@ -44,7 +44,7 @@ def get_output_dir():
             
                 
         except:
-            e = sys.exec_info()[0]
+            e = sys.exc_info()[0]
             pprint.pprint(e)
 
     print 'Output Directory set to {}.'.format(outDir)
